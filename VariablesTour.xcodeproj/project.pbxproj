@@ -18,6 +18,7 @@
 		15DA3FCD17DBA39100BD6DF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DA3FCC17DBA39100BD6DF7 /* Default-568h@2x.png */; };
 		15DA3FD017DBA39100BD6DF7 /* VTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA3FCF17DBA39100BD6DF7 /* VTViewController.m */; };
 		15DA3FD317DBA39100BD6DF7 /* VTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DA3FD117DBA39100BD6DF7 /* VTViewController.xib */; };
+		15DA3FDB17DBA3C100BD6DF7 /* VTSampleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA3FDA17DBA3C100BD6DF7 /* VTSampleObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		15DA3FCE17DBA39100BD6DF7 /* VTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTViewController.h; sourceTree = "<group>"; };
 		15DA3FCF17DBA39100BD6DF7 /* VTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTViewController.m; sourceTree = "<group>"; };
 		15DA3FD217DBA39100BD6DF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VTViewController.xib; sourceTree = "<group>"; };
+		15DA3FD917DBA3C100BD6DF7 /* VTSampleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTSampleObject.h; path = ../VTSampleObject.h; sourceTree = "<group>"; };
+		15DA3FDA17DBA3C100BD6DF7 /* VTSampleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTSampleObject.m; path = ../VTSampleObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		15DA3FBC17DBA39100BD6DF7 /* VariablesTour */ = {
 			isa = PBXGroup;
 			children = (
+				15DA3FD917DBA3C100BD6DF7 /* VTSampleObject.h */,
+				15DA3FDA17DBA3C100BD6DF7 /* VTSampleObject.m */,
 				15DA3FC517DBA39100BD6DF7 /* VTAppDelegate.h */,
 				15DA3FC617DBA39100BD6DF7 /* VTAppDelegate.m */,
 				15DA3FCE17DBA39100BD6DF7 /* VTViewController.h */,
@@ -177,6 +182,7 @@
 				15DA3FC317DBA39100BD6DF7 /* main.m in Sources */,
 				15DA3FC717DBA39100BD6DF7 /* VTAppDelegate.m in Sources */,
 				15DA3FD017DBA39100BD6DF7 /* VTViewController.m in Sources */,
+				15DA3FDB17DBA3C100BD6DF7 /* VTSampleObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

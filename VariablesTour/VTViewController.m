@@ -7,6 +7,7 @@
 //
 
 #import "VTViewController.h"
+#import "VTSampleObject.h"
 
 @interface VTViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    VTSampleObject *sampleObject = [[VTSampleObject alloc] init];
+    sampleObject.publicProperty = @"public property";
+    [sampleObject givenValuesToBothProperties];
+    
+    [sampleObject printAllValues];
 }
 
 - (void)didReceiveMemoryWarning
